@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
-import Hero from './components/Hero';
+import SetDown from './components/SetDown';
 import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
@@ -8,15 +8,23 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="header-container-pai">
-      <div>
+      <div className='header-container-filho'>
         <Header />
+      </div>
+      <div>
+        <SetDown />
+      </div>
+      <div>
+        <Projects />
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
     );
   }
       {/* <Hero /> */}
       {/* <About /> */}
-      {/* <Projects /> */}
       {/* <Footer /> */}
 
 export default App;
